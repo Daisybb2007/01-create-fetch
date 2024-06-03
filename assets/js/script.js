@@ -2,7 +2,6 @@ var repoList = document.querySelector('ul');
 var fetchButton = document.getElementById('fetch-button');
 
 function getApi() {
-  // Replace `octocat` with anyone else's GitHub username
   var requestUrl = 'https://api.github.com/users/daisybb2007/repos';
 
   fetch(requestUrl)
